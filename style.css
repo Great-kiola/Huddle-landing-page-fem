@@ -16,7 +16,7 @@ body {
   background-size: cover;
   background-position: top center;
   background-color: var(--Violet);
-  /* overflow: hidden; */
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,7 +28,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* flex-direction: column; */
+}
+
+.secondDiv{
+  width: 500px;
+  margin-left: 100px;
+}
+
+
+.logo{
+  width: 150px;
 }
 
 .attribution {
@@ -40,7 +49,7 @@ body {
 }
 
 section{
-  min-height: 100vh;
+  min-height: 80vh;
 
 }
 
