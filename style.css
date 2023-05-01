@@ -21,8 +21,31 @@ body {
   flex-direction: column;
 }
 
-
 .container{
+  margin: 150px auto;  
+}
+
+.iconDiv{
+  text-align: end;
+}
+
+ion-icon{
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 100px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+ion-icon:hover{
+  color: #fff;
+  background-image: linear-gradient(to bottom, var(--Violet), var(--SoftMagenta));
+}
+
+.mainDiv{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +67,7 @@ body {
 
 .secondDiv .textDiv p{
   font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
+  font-size: .8rem;
   opacity: 50%;
 }
 
@@ -62,6 +85,12 @@ body {
   font-weight: 600;
 }
 
+.btn:hover{
+  background-image: linear-gradient(to bottom, var(--Violet), var(--SoftMagenta));
+  color: #fff;
+  box-shadow: none;
+}
+
 .logo{
   width: 150px;
 }
@@ -69,15 +98,13 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: #fff;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--SoftMagenta);
 }
 
-section{
-  min-height: 80vh;
 
-}
 
 :root {
   --Violet: hsl(257, 40%, 49%);
